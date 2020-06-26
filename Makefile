@@ -4,16 +4,8 @@ platform ?= nci
 	bld/build.sh $(platform) auscom 360x300
 025deg:
 	bld/build.sh $(platform) auscom 1440x1080
-01deg_0361:
-	bld/build.sh $(platform) auscom_0361 3600x2700
-01deg_0722:
-	bld/build.sh $(platform) auscom_0722 3600x2700
-01deg_1392:
-	bld/build.sh $(platform) auscom_1392 3600x2700
-01deg_1444:
-	bld/build.sh $(platform) auscom_1444 3600x2700
-01deg_2888:
-	bld/build.sh $(platform) auscom_2888 3600x2700
+01deg:
+	bld/build.sh $(platform) auscom 3600x2700
 01deg_0361_045x045:
 	bld/build.sh $(platform) auscom_0361_045x045 3600x2700
 01deg_0361_060x060:
